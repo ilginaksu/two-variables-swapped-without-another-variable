@@ -1,0 +1,20 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 1;
+            int b = 2;
+            // değişim işlemini yapalim
+            a = a + b;
+            b = a - b;
+            a = a - b;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
+    }
+}
